@@ -57,7 +57,6 @@ const api = {
 
   async deleteTodo(id) {
     try {
-      console.log(id)
       const response = await fetch(`${API_BASE_URL}/todos/${id}`, {
         method: 'DELETE',
       });

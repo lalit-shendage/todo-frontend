@@ -71,6 +71,7 @@ const addTodo = async (title) => {
 
   return (
     <div className="App">
+      <h1>Todo List</h1>
       <TodoForm onAddTodo={addTodo} />
       <TodoList
         todos={todos}

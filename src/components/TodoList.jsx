@@ -4,7 +4,7 @@ import TodoItem from './TodoItem';
 function TodoList({ todos, onToggleCompleted, onEditTodo, onDeleteTodo }) {
   return (
     <div>
-      <h1>Todo List</h1>
+      
       {todos.length === 0 ? (
         <p>There are no tasks to do.</p>
       ) : (
